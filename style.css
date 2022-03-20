@@ -1,0 +1,66 @@
+h1{
+    color: grey;
+    border-bottom: grey solid;
+    margin-bottom: 0px;
+}
+nav{
+    color: blue;
+    border-right: grey solid;
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+li{
+    list-style: none;
+    border-radius:10px 0;
+    padding:10px ;
+}
+
+ul li:hover{
+    background-color: rgb(224, 111, 111);
+    transition: 0.3s;
+}
+ul li ul li:hover{
+    background-color: rgb(211, 11, 11);
+    transition: 0.3s;
+}
+.test{
+    display: inline-block;
+}
+p{
+    background-color: white;
+    margin-top: 0px;
+    padding-top:10px;
+}
+div{
+    margin: 0px;
+    background-color: white;
+
+}
+ul{
+    margin: 0px;
+}
+
+ul li ul{
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    left: 210px;
+    top: 80px;
+    z-index: -1;
+    visibility: hidden;
+}
+
+ul li:hover .ul1{
+    left: 211px;
+    top: 100px;
+    z-index: 99;
+    visibility: visible;
+}
+ul li:hover .ul2{
+    left: 211px;
+    top: 137px;
+    z-index: 99;
+    visibility: visible;
+}
+
